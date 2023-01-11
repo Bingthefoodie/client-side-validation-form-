@@ -1,0 +1,74 @@
+/*
+    Name: Bing Xie
+    Date: 2022-11-16
+    Section: CST8285 section 300
+    This is css for registration.html page to format the webpage.
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1{
+    margin: 30px;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  hr{
+    margin-left: 80px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+  div{
+    padding-left: 70px;
+    padding-bottom: 10px;
+  }
+  button{
+    margin: 50px;
+  }
+form{
+  padding: 10px;
+  margin-top: 10px;
+}
+form>div{
+  margin-bottom: 10px;
+  position: relative;
+}
+form>div>label{
+  display: inline-block;
+	margin-bottom: 5px;
+}
+
+.textfield input{
+  border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 50%;
+} 
+
+/*control the button color*/
+button {
+  border: none;
+  color: white;
+  background-color: rgb(53, 100, 172);
+  display: inline-block;
+  padding: 10px;
+  margin-left: 70px;
+  margin-top: 1px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+}
+/*control the space in between the button*/
+button:first-of-type{
+  margin-right: 1px;
+}
+/*control the space in between the button and change the color of the second button*/
+button:first-of-type + button{
+background-color: #e74c3c;
+margin-left: 0;
+}
